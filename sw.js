@@ -3,12 +3,12 @@ self.addEventListener("install", e => {
         caches.open("static").then (cache => {
             return cache.addAll([
                     "./",
-                    "/progressive_web_app/first/src/js/app.js",
-                    "/progressive_web_app/first/src/js/feed.js",
-                    "/progressive_web_app/first/src/js/material.min.js",
-                    "/progressive_web_app/first/src/css/app.css",
-                    "/progressive_web_app/first/src/css/feed.css",
-                    "/progressive_web_app/first/src/images/main-image.jpg",
+                    "/src/js/app.js",
+                    "/src/js/feed.js",
+                    "/src/js/material.min.js",
+                    "/src/css/app.css",
+                    "/src/css/feed.css",
+                    "/src/images/main-image.jpg",
                     "https://fonts.googleapis.com/css?family=Roboto:400,700",
                     "https://fonts.googleapis.com/icon?family=Material+Icons",
                     "https://cdnjs.cloudflare.com/ajax/libs/material-design-lite/1.3.0/material.indigo-pink.min.css",
