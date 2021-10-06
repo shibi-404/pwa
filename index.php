@@ -10,8 +10,8 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/material-design-lite/1.3.0/material.indigo-pink.min.css">
-  <link rel="stylesheet" href="/progressive_web_app/first/src/css/app.css">
-  <link rel="stylesheet" href="/progressive_web_app/first/src/css/feed.css">
+  <link rel="stylesheet" href="/src/css/app.css">
+  <link rel="stylesheet" href="/src/css/feed.css">
   <link rel="manifest" href="manifest.json">
 </head>
 <body>
@@ -73,7 +73,7 @@
           </div>
         </form>
       </div>
-      <img src="/progressive_web_app/first/src/images/main-image.jpg"
+      <img src="/src/images/main-image.jpg"
            alt="Explore the City"
            class="main-image">
       <div class="page-content">
@@ -93,8 +93,8 @@
     </main>
   </div>
 </div>
-<script defer src="/progressive_web_app/first/src/js/material.min.js"></script>
-<script src="/progressive_web_app/first/src/js/app.js"></script>
-<script src="/progressive_web_app/first/src/js/feed.js"></script>
+<script defer src="/src/js/material.min.js"></script>
+<script src="/src/js/app.js"></script>
+<script src="/src/js/feed.js"></script>
 </body>
 </html>
